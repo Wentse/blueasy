@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>blueeasy</title>
+        <meta name="description" content="Awesome description here">
+        <meta name="keywords" content="blueasy, coffee, John Doe">
+        <meta name="author" content="Petya Naydenova">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="css/reset.css" type="text/css">
+        <link rel="stylesheet" href="lib/font-awesome-4.7.0/css/font-awesome.min.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="css/gridview.css" type="text/css">
+    </head>
+    <body>
+        <header>
+            <div class='header-container'>
+                <a href="#home" id="home" class="logo">blu<span>e</span>asy</a>
+                <nav class='top-navigation'>
+                    <ul>
+                        <li>
+                            <a href="#home">home</a>
+                        </li>
+                        <li>
+                            <a href="#services">services</a>
+                        </li>
+                        <li>
+                            <a href="#features">features</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio">portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#contact">contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <h1 class='motto'>
+                    <mark>&#8243;i&#8242;m looking for the unexpected.</mark>
+                    <mark>i&#39;m looking for the things i've never seen before.&#8243;</mark> 
+                </h1>
+            </div>
+            <div class='nav-background'></div>
+        </header>
+        <section class='services' id="services">
+            <div class='container'>
+                <h2>
+                    <span>ser</span>vices
+                </h2>
+                <div class='row'>
+                    <div class='[ col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3]'>
+                        <div class='services-content'>
+                            <div class='clearfix'>
+                                <figure class='floated-div'>
+                                    <img src="images/coffee-icon.png" alt="coffee photo" class='services-icons'>
+                                    <h3>coffee</h3>
+                                </figure>
+                                <p> Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='[ col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 ]'>
+                        <div class='services-content'>
+                            <div class='clearfix'>
+                                <figure class='floated-div'>
+                                    <img src="images/instant-icon.png" alt="instant photo" class='services-icons'>
+                                    <h3>instant</h3>
+                                </figure>
+                                <p> Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='[ col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 ]'>
+                        <div class='services-content'>
+                            <div class='clearfix'>
+                                <figure class='floated-div'>
+                                    <img src="images/serious-icon.png" alt="serios photo" class='services-icons'>
+                                    <h3>serious</h3>
+                                </figure>
+                                <p> Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='[ col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 ]'>
+                        <div class='services-content'>
+                            <div class='clearfix'>
+                                <figure class='floated-div'>
+                                    <img src="images/frame-icon.png" alt="frame photo" class='services-icons'>
+                                    <h3>frame</h3>
+                                </figure>
+                                <p> Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class='portfolio' id="portfolio">
+            <div class='container'>
+                <div class='row portfolio-nav'>
+                    <div class='[ col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6]'>
+                        <h2>
+                            <span class="grey-line">por</span>tfolio
+                        </h2>
+                    </div>
+                    <nav class='[ col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6]'>
+                        <ul>
+                            <li>
+                            	<a onclick="filterSelection('all')" class='cursor'>all</a>
+    
+                            </li>
+                            <li>
+                                <a onclick="filterSelection('panoramas')" class='cursor'>panoramas</a>
+                            </li>
+                            <li>
+                                <a onclick="filterSelection('portraits')" class='cursor'>portraits</a>
+                            </li>
+                            <li>
+                                <a onclick="filterSelection('macro')" class='cursor'>macro</a>
+                            </li>
+                            <li>
+                                <a onclick="filterSelection('journal')" class='cursor'>journal</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class='row'>
+                    <div class='column portraits [ col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3]'>
+                        <figure class='content photos-container cursor'  onclick="openModal();currentSlide(1)">
+                            <img src="images/bridge.jpg" alt="Bridge" class='hover-shadow grayscale-image gallery-hover'>
+                            <div class='middle-plus'>
+								<div class='plus-modal'>&#43;</div>
+                            </div>
+                        </figure>
+                    </div>
+                    <div class='column portraits [ col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3]'>
+                        <figure class='content photos-container cursor' onclick="openModal();currentSlide(2)">
+                            <img src="images/mist.jpg" alt="Mist" class='grayscale-image gallery-hover'>
+                            <div class='middle-plus'>
+								<div class='plus-modal'>&#43;</div>
+                            </div>
+                        </figure>
+                    </div>
+                    <div class='column macro [ col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3]'>
+                        <figure class='content photos-container cursor' onclick="openModal();currentSlide(3)">
+                            <img src="images/rock.jpg" alt="Rock" class='grayscale-image gallery-hover'>
+                            <div class='middle-plus'>
+								<div class='plus-modal'>&#43;</div>
+                            </div>
+                        </figure>
+                    </div>
+                    <div class='column macro [ col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3]'>
+                        <figure class='content photos-container cursor' onclick="openModal();currentSlide(4)">
+                            <img src="images/tree.jpg" alt="Tree" class='grayscale-image gallery-hover'>
+                            <div class='middle-plus'>
+								<div class='plus-modal'>&#43;</div>
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class="column journal [ col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3]">
+                        <figure class='content photos-container cursor' onclick="openModal();currentSlide(5)">
+                            <img src="images/house.jpg" alt="House" class='grayscale-image gallery-hover'>
+                            <div class='middle-plus'>
+								<div class='plus-modal'>&#43;</div>
+                            </div>
+                        </figure>
+                    </div>
+                    <div class='column journal [ col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3]'>
+                        <figure class='content photos-container cursor'  onclick="openModal();currentSlide(6)">
+                            <img src="images/surf.jpg" alt="Surf" class='grayscale-image gallery-hover'>
+                            <div class='middle-plus'>
+								<div class='plus-modal'>&#43;</div>
+                            </div>
+                        </figure>
+                    </div>
+                    <div class='column panoramas [ col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3]'>
+                        <figure class='content photos-container cursor'  onclick="openModal();currentSlide(7)">
+                            <img src="images/mountain.jpg" alt="Mountain" class='grayscale-image gallery-hover'>
+                            <div class='middle-plus'>
+								<div class='plus-modal'>&#43;</div>
+                            </div>
+                        </figure>
+                    </div>
+                    <div class='column panoramas [ col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3]'>
+                        <figure class='content photos-container cursor'  onclick="openModal();currentSlide(8)">
+                            <img src="images/avalanche.jpg" alt="Avalanche" class='grayscale-image gallery-hover'>
+                            <div class='middle-plus'>
+                                <div class='plus-modal'>&#43;</div>
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+                <div class='modal' id="myModal">
+                    <div class='modal-content'>
+                        <figure class='mySlides'>
+                            <img src="images/bridge.jpg" alt="bridge-modal" class='grayscale-image modal-image'>
+                        </figure>
+                        <figure class='mySlides'>
+                            <img src="images/mist.jpg" alt="mist-modal" class='grayscale-image modal-image'>
+                        </figure>
+                        <figure class='mySlides'>
+                            <img src="images/rock.jpg" alt="rock-modal" class='grayscale-image modal-image'>
+                        </figure>
+                        <figure class='mySlides'>
+                            <img src="images/tree.jpg" alt="tree-modal" class='grayscale-image modal-image'>
+                        </figure>
+                        <figure class='mySlides'>
+                            <img src="images/house.jpg" alt="house-modal" class='grayscale-image modal-image'>
+                        </figure>
+                        <figure class='mySlides'>
+                            <img src="images/surf.jpg" alt="surf-modal" class='grayscale-image modal-image'>
+                        </figure>
+                        <figure class='mySlides'>
+                            <img src="images/mountain.jpg" alt="mountain-modal" class='grayscale-image modal-image'>
+                        </figure>
+                        <figure class='mySlides'>
+                            <img src="images/avalanche.jpg" alt="avalanche-modal" class='grayscale-image modal-image'>
+                        </figure>
+                        <span class='close cursor' onclick="closeModal()">&#10005;</span>
+                        <a aria-hidden="true" class='fa fa-angle-left' onclick="plusSlides(-1)"></a>
+                        <a aria-hidden="true" class='fa fa-angle-right' onclick="plusSlides(1)"></a>
+                        <div class='caption-container'>
+                            <p id="caption"></p>
+                        </div>
+                        <figure class="little-images">
+	                        <img src="images/bridge.jpg" alt="Bridge" class='cursor little-modal' onclick="currentSlide(1)">
+	                        <img src="images/mist.jpg" alt="Mist" class='cursor little-modal' onclick="currentSlide(2)">
+	                        <img src="images/rock.jpg" alt="Rock" class='cursor little-modal' onclick="currentSlide(3)">
+	                        <img src="images/tree.jpg" alt="Tree" class='cursor little-modal' onclick="currentSlide(4)">
+	                        <img src="images/house.jpg" alt="House" class='cursor little-modal' onclick="currentSlide(5)">
+	                        <img src="images/surf.jpg" alt="Surf" class='cursor little-modal' onclick="currentSlide(6)">
+	                        <img src="images/mountain.jpg" alt="Mountain" class='cursor little-modal' onclick="currentSlide(7)">
+	                        <img src="images/avalanche.jpg" alt="Avalanche" class='cursor little-modal' onclick="currentSlide(8)">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class='default' id="features">
+            <div class='container'>
+                <div class='row'>
+                    <div class='[ col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6]'>
+                        <h2>
+                            <span>jus</span>t default section
+                        </h2>
+                        <p> Bear claw marz pan bear claw applicake I love muffin. Lemon drops gummi bears pastry gummi bears sesame snaps I love unerdwear.com Soufflé cottom candy dessert candy ice cream wafer gummies cheesecake brownie.
+                        </p>
+                        <p> Muffin chuppa chups jelly beans sweet pie applicake. Croissant chocolate cake I love pudding. Ice cream I love powder pudding apple pie marshmallow. Cupcake marzipan oat cake bonbon I love candy canes toffee.
+                        </p>
+                        <p>
+                            <input type="button" value="Visit Me">
+                        </p>
+                    </div>
+                    <div class='[ col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6]'>
+                        <div class='video-container'>
+                            <iframe src="https://www.youtube.com/embed/rFwsAuuI3dw?rel=0&amp;showinfo=0" width="400" height="225"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class='twitter'>
+            <div class='container'>
+                <div class='row'>
+                    <div class='[ col-xs-11 col-sm-11 col-md-11 col-lg-11 col-xl-11 col-xxl-11]'>
+                        <h2>
+                            <span>twi</span>tter
+                        </h2>
+                    </div>
+                    <div class='[ col-xs-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1]'>
+                        <a href="#" aria-hidden="true" class='fa fa-twitter twitter-single'></a>
+                    </div>
+                    <p> Unerdwear cookie liquorice. Cake donut cupcake lollipop soufflé candy. Chocolate oat cake <span>@cheesecake tootsie roll.</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class='john'>
+            <div class='container different-container john-paddings'>
+                <h2>
+                    <span>wh</span>o is john doe?
+                </h2>
+                <div class='row'>
+                    <div class='[ col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6]'>
+                        <p> Bear claw marzipan bear claw applicake I love muffin. Lemon drops gummi bears pastry gummi bears sesame snaps I love unerdwear.com soufflé cottom candy dessert candy ice cream wafer gummies cheesecake brownie.
+                        </p>
+                        <p>Muffin chupa chups jelly beans sweet pie applicake. Croissant chocolate cake I love pudding. Ice cream I love powder pudding apple pie marshmallow. Cupcake marzipan oat cake bonbon I love candy canes toffee.
+                        </p>
+                    </div>
+                    <div class='[ col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6]'>
+                        <p> Pudding dessert jelly beans tiramisu gingerbread croissant tiramisu applicake. Sesame snaps sugar plum cotton candy chocolate bonbon lemon drops candy canes cotton candy. Cake tofee bear claw pastry
+                        </p>
+                        <a href="#" aria-hidden="true" class='fa fa-twitter'></a>
+                        <a href="#" aria-hidden="true" class='fa fa-google-plus'></a>
+                        <a href="#" aria-hidden="true" class='fa fa-dribbble'></a>
+                        <a href="#" aria-hidden="true" class='fa fa-coffee'></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class='testimonials'>
+            <div class='container'>
+                <div class='row'>
+                    <div class='[ col-xs-11 col-sm-11 col-md-11 col-lg-11 col-xl-11 col-xxl-11]'>
+                        <h2>
+                            <span class="grey-line">tes</span>timonials
+                        </h2>
+                    </div>
+                    <div class='[ col-xs-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1]'>
+                    	<a href="#" aria-hidden="true" class='fa fa-quote-right'></a>
+                    </div>
+                </div>
+                <blockquote>
+                    <p> Applicake chocolate cake wafer toffee pie soufflé wafer.Tart marshmallow wafer macaroon chesecake Jelly. gingerbread cookie soufflé sweet roll sweet roll jelly-o.
+                    </p>
+                    <footer>-Walter White</footer>
+                </blockquote>
+            </div>
+        </section>
+        <section class="contactform" id="contact">
+            <div class='container'>
+                <h2>
+                    <span>Co</span>ntact
+                </h2>
+                <div class='row'>
+                    <div class='[ col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6]'>
+                        <form action="index.html" method="POST" enctype="multipart/form-data">
+                            <label for="fullname">full name</label>
+                            <input type="text" name="username" id="fullname" required="required">
+                            <label for="email">email:</label>
+                            <input type="email" name="useremail" id="email" required="required">
+                            <label for="message">message</label>
+                            <textarea cols="10" id="message" name="usermessage" required="required" rows="10"></textarea>
+                            <input type="submit" value="MESSAGE">
+                        </form>
+                    </div>
+                    <div class='[ col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6]'>
+                        <p class='text-form'>Jujubes bear claw croissant wafer sweet lemon drops brownie chocolate bar. Sweet lollipop halvah tootsie roll cake fruitcake. Chocolate cake chocolate bar gingerbread lollipop tart. Jujubes bear claw donut chupa chups.</p>
+                        <div class='text-form'>
+                            <p>Linda Newman</p>
+                            <p>W325 State Road 123</p>
+                            <p>Mondovi, WI(Wisconsin) 98746-54321</p>
+                            <a href="tel:+7159461234">(715) 946 - 1234</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class='footer'>
+            <div class='container'>
+                <nav class='footer-nav'>
+                    <ul>
+                        <li>
+                            <a href="#home">home</a>
+                        </li>
+                        <li>|</li>
+                        <li>
+                            <a href="#services">services</a>
+                        </li>
+                        <li>|</li>
+                        <li>
+                            <a href="#portfolio">portfolio</a>
+                        </li>
+                        <li>|</li>
+                        <li>
+                            <a href="#contact">contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>
