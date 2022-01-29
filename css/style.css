@@ -1,0 +1,528 @@
+@font-face {
+  font-family: 'segoeuib';
+  src: url('../fonts/segoeuib.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/segoeuib.woff') format('woff'),
+        url('../fonts/segoeuib.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'segoeuil';
+    src:url('../fonts/segoeuil.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/segoeuil.woff') format('woff'),
+        url('../fonts/segoeuil.ttf') format('truetype');
+}
+
+html {
+  font-family: 'segoeuil', Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 0.875em;
+/*   font-size: .73vw; */
+  
+}
+
+body {
+  background-color: #515f67;
+  color: #fff;
+}
+
+header a, footer a, .contactform a {
+  color: #fff;
+}
+
+h2 {
+  font-size: 2.143rem;
+  text-transform: uppercase;
+}
+
+h2 span {
+  border-bottom: .1em solid #fff;
+}
+
+.grey-line {
+  border-bottom: .1em solid #515f67;
+}
+
+.default p, .john p, .text-form {
+  font-size: 14px;
+}
+/*---------------HEADER-----------------------------*/
+body > header {
+  background-image: url('../images/grass.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.logo {
+  font-family: "segoeuib", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 2.143rem;
+  text-transform: uppercase;
+  z-index: 2;
+  position: absolute;
+  top: 7%;
+  left: 0;
+  -webkit-transform: translate(0, -7%);
+  -moz-transform: translate(0, -7%);
+  -ms-transform: translate(0, -7%);
+  -o-transform: translate(0, -7%);
+  transform: translate(0, -7%);
+}
+
+a span {
+  color: #3cf;
+}
+
+.top-navigation {
+  z-index: 2;
+  position: absolute;
+  top: 8%;
+  right: 0;
+  -webkit-transform: translate(0, -8%);
+  -moz-transform: translate(0, -8%);
+  -ms-transform: translate(0, -8%);
+  -o-transform: translate(0, -8%);
+  transform: translate(0, -8%);
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  font-family: "segoeuib", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+/*  font-size: 14px;*/
+  font-size: 1rem;
+  text-transform: uppercase;
+  border: .1em solid transparent;
+}
+
+li a:hover {
+  border: .1em solid transparent;
+  color: #3cf;
+}
+
+li a:active {
+  border: .1em solid #3cf;
+  color: #3cf;
+}
+/*----------------------------------------------------*/
+.plus-modal, .fa-angle-left, .fa-angle-right {
+  font-size: 3rem;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  position: absolute;
+  top: 60%;
+  -webkit-transform: translate(0, -60%);
+  -moz-transform: translate(0, -60%);
+  -ms-transform: translate(0, -60%);
+  -o-transform: translate(0, -60%);
+  transform: translate(0, -60%);
+}
+
+mark {
+  display: inline-block;
+  background-color: #353f47;
+  color: #fff;
+  opacity: .8;
+  line-height: 1.8;
+  padding: .1em .3em;
+  margin: 0.1em;
+}
+
+.nav-background {
+  content: "";
+  background: #353f47;
+  opacity: .8;
+  width: 100%;
+  height: 18%;
+  position: absolute;
+  top: 0;
+  bottom: 10%;
+  z-index: 1;
+}
+/*---------------УСЛУГИ-----------------------------*/
+.services {
+  background-color: #3cf;
+}
+
+.services-content {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.clearfix::before {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+h3 {
+  font-size: 1.714rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.services-content p {
+  font-size: 12px;
+  text-align: justify;
+/*    font-size: .8571rem; */
+  
+}
+/*--------------- ПОРТФОЛИО -----------------------------*/
+.portfolio {
+  position: relative;
+  background-color: #fff;
+  color: #515f67;
+}
+
+.column {
+  display: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.photos-container {
+  position: relative;
+  background-color: #152126;
+  opacity: .8;
+}
+
+.photos-container:hover
+.gallery-hover {
+  opacity: .1;
+}
+
+.photos-container:hover
+.middle-plus {
+  opacity: 1;
+}
+
+.grayscale-image {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.portfolio a {
+  color: #515f67;
+}
+
+.gallery-hover {
+  display: block;
+  width: 100%;
+  height: auto;
+  -webkit-transition: .5s ease;
+  -moz-transition: .5s ease;
+  -o-transition: .5s ease;
+  transition: .5s ease;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.middle-plus {
+  -webkit-transition: .5s ease;
+  -moz-transition: .5s ease;
+  -o-transition: .5s ease;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.plus-modal {
+  color: #fff;
+  font-size: 4rem;
+}
+
+.modal {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #353f47;
+  color: red;
+}
+
+.modal-content {
+  background-color: #353f47;
+  max-width: 1200px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+
+.modal-image {
+  width: 44%;
+  display: block;
+  margin: 0 auto;
+}
+
+.caption-container {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #353f47;
+  color: #fff;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  color: #788b96;
+}
+
+.close:hover {
+  color: #3cf;
+  cursor: pointer;
+}
+
+.fa-angle-left {
+  cursor: pointer;
+  position: absolute;
+  -webkit-transition: .6s ease;
+  -moz-transition: .6s ease;
+  -o-transition: .6s ease;
+  transition: .6s ease;
+  top: 35%;
+  left: 0;
+  color: #788b96;
+}
+
+.fa-angle-right {
+  cursor: pointer;
+  position: absolute;
+  -webkit-transition: .6s ease;
+  -moz-transition: .6s ease;
+  -o-transition: .6s ease;
+  transition: .6s ease;
+  top: 35%;
+  right: 0;
+  color: #788b96;
+}
+
+.fa-angle-left:hover, .fa-angle-right:hover, .fa-angle-left:active, .fa-angle-right:active {
+  color: #3cf;
+}
+
+.little-modal {
+  width: 12.5%;
+  height: auto;
+  opacity: .2;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.active,
+.little-modal:hover {
+  opacity: 1;
+}
+
+.show {
+  display: block;
+}
+/*--------------- Just default -----------------------------*/
+.default {
+  background-color: #515f67;
+}
+
+.default p {
+  font-weight: 400;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 98%;
+  height: 98%;
+  border: none;
+}
+
+input[value="Visit Me"], input[type=submit] {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #353f46;
+  border: .13em solid #353f46;
+  cursor: pointer;
+}
+
+input[value="Visit Me"]:hover {
+  color: #3cf;
+}
+
+input[value="Visit Me"]:active {
+  color: #3cf;
+}
+/*--------------- Twitter -----------------------------*/
+.twitter {
+  background-color: #3cf;
+}
+
+.twitter-single {
+  color: #fff;
+  float: right;
+}
+
+.twitter-single:hover {
+  color: #515f67;
+}
+/* текста след  @ */
+.twitter p span {
+  font-weight: 900;
+}
+
+/*--------------- Who is John Doe -----------------------------*/
+.john {
+  background-image: url('../images/photograph.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.john p {
+  font-weight: 400;
+}
+
+.john .fa {
+  color: #fff;
+  text-align: center;
+}
+
+.john .fa:hover {
+  color: #3cf;
+  border: .1em solid #3cf;
+}
+/*--------------- TESTIMONALS -----------------------------*/
+.testimonials {
+  background-color: #fff;
+  color: #515f67;
+}
+
+blockquote footer {
+  font-weight: 900;
+  color: #3cf;
+}
+
+.testimonials .fa {
+  color: #515f67;
+  float: right;
+}
+/*--------------- Contact-----------------------------*/
+.contactform {
+  background-image: url('../images/form_photo.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+label {
+  display: inline-block;
+}
+
+form:not(.text-form) {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+input[type=text], input[type=email] {
+  background-color: transparent;
+  border: .1em solid #fff;
+  display: block;
+  cursor: pointer;
+}
+
+textarea {
+  background-color: transparent;
+  border: .1em solid #fff;
+  display: block;
+  resize: none;
+  cursor: pointer;
+}
+
+input[type=submit] {
+  border: .2em solid transparent;
+  background-color: #3cf;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type=submit] {
+  width: 60%;
+}
+
+input[type=submit]:hover {
+  border: .2em solid  #353f47;
+  background-color: gray;
+  color: #353f47;
+}
+
+/*--------------- Footer-----------------------------*/
+.footer {
+  background-color: #353f47;
+}
+
+.footer li, .footer a {
+  color: #515f67;
+}
+
+.footer li {
+  font-weight: 900;
+}

@@ -1,0 +1,38 @@
+
+html {
+-webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+body {
+	margin:0;
+	line-height: 1.5;
+}
+
+*, *::before, *::after {
+-webkit-box-sizing: inherit;
+   -moz-box-sizing: inherit;
+        box-sizing: inherit;
+ }
+a {
+    text-decoration: none;
+}
+html, body, footer, header, nav, section, div, span, h1, h2, h3, h4, h5, h6, p, 
+blockquote, address, cite, img, q, ol, ul, li, fieldset,form, label, legend,
+mark, article, aside, details, iframe, embed, figure, figcaption, summary, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style-type: none;
+}
+blockquote, q {
+	quotes: none;
+}
